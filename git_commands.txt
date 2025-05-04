@@ -1,0 +1,4 @@
+git pull origin master
+git push origin master
+git remote add origin https://r-tatsu/try_synth1.git
+git remote set-url origin https://github.com/r-tatsu/try_synth1.git
