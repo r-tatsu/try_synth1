@@ -1,0 +1,208 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:47 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 4965
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun May 04 21:29:18 JST 2025
+Time zone: 	Japan Standard Time (Asia/Tokyo)
+
+OS: Ubuntu
+OS Version: 5.15.0-69-generic
+OS Architecture: amd64
+Available processors (cores): 8
+
+Display: 10.0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	/tools/Xilinx/Vivado/2020.2/tps/lnx64/jre11.0.2
+Java executable location: 	/tools/Xilinx/Vivado/2020.2/tps/lnx64/jre11.0.2/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	u_r_tatsu
+User home directory: /home/u_r_tatsu
+User working directory: /home/u_r_tatsu/try_synth1
+User country: 	JP
+User language: 	ja
+User locale: 	ja_JP
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2020.2
+RDI_DATADIR: /tools/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: /home/u_r_tatsu/.Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: /home/u_r_tatsu/.Xilinx/Vivado/2020.2/
+Vivado layouts directory: /home/u_r_tatsu/.Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	/tools/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	/home/u_r_tatsu/try_synth1/vivado.log
+Vivado journal file location: 	/home/u_r_tatsu/try_synth1/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-4965-as005
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /tools/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@172.16.6.202:2100@172.16.6.205
+XILINX_DSP: /tools/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: /tools/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2020.2
+XILINX_SDK: /tools/Xilinx/Vitis/2020.2
+XILINX_VITIS: /tools/Xilinx/Vitis/2020.2
+XILINX_VIVADO: /tools/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	222 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,609 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // y
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,609 MB. GUI used memory: 72 MB. Current time: 5/4/25, 9:29:19 PM JST
+// HOptionPane Error: 'Invalid file '/home/u_r_tatsu/try_synth1/try_synth1'. File does not exist. (Invalid File)'
+selectButton("OptionPane.button", "OK"); // JButton
+dismissFileChooser();
+// 'i' command handler elapsed time: 10 seconds
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // y
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// [GUI Memory]: 87 MB (+88604kb) [00:00:18]
+// [Engine Memory]: 1,612 MB (+1539230kb) [00:00:18]
+// [GUI Memory]: 108 MB (+18028kb) [00:00:19]
+// [GUI Memory]: 131 MB (+17818kb) [00:00:20]
+// f (cr): New Project: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (f): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "counter"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_CREATE_FILE, "Create File"); // a
+// C (f): Create Constraints File: addNotify
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "try_synth1"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Constraints File"); // C
+selectButton("NEXT", "Next >"); // JButton
+// Elapsed time: 29 seconds
+setText("PAResourceEtoH.FPGAChooser_FPGA_TABLE_SEARCH_FIELD", "xcvc1902-viva1596-2"); // OverlayTextField
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xcvc1902-viva1596-2HP-i-S ; 1596 ; 422 ; 899840 ; 1799680 ; 967 ; 463 ; 1968 ; 32 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 32 ; 0 ; 4 ; 12 ; 400 ; -40 ; 100 ; 100 ; I ; 0.854 ; 0.880 ; 0.906", 0, "xcvc1902-viva1596-2HP-i-S", 0); // w
+selectButton("NEXT", "Next >"); // JButton
+// bz (cr):  Create Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project project_1 /home/u_r_tatsu/try_synth1/project_1 -part xcvc1902-viva1596-2HP-i-S 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1247 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,675 MB. GUI used memory: 78 MB. Current time: 5/4/25, 9:30:44 PM JST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Command: 'file mkdir /home/u_r_tatsu/try_synth1/project_1/project_1.srcs/sources_1/new'
+// Tcl Message: file mkdir /home/u_r_tatsu/try_synth1/project_1/project_1.srcs/sources_1/new 
+// Tcl Message: close [ open /home/u_r_tatsu/try_synth1/project_1/project_1.srcs/sources_1/new/counter.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files /home/u_r_tatsu/try_synth1/project_1/project_1.srcs/sources_1/new/counter.v 
+// Tcl Command: 'file mkdir /home/u_r_tatsu/try_synth1/project_1/project_1.srcs/constrs_1/new'
+// I (cr): Define Module: addNotify
+// Tcl Message: file mkdir /home/u_r_tatsu/try_synth1/project_1/project_1.srcs/constrs_1/new 
+// Tcl Message: close [ open /home/u_r_tatsu/try_synth1/project_1/project_1.srcs/constrs_1/new/try_synth1.xdc w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 /home/u_r_tatsu/try_synth1/project_1/project_1.srcs/constrs_1/new/try_synth1.xdc 
+dismissDialog("New Project"); // f
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 84 seconds
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+// [Engine Memory]: 1,695 MB (+2371kb) [00:01:43]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter (counter.v)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter (counter.v)]", 1, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("counter.v", 71, 470); // bP
+typeControlKey((HResource) null, "counter.v", 'v'); // bP
+selectCodeEditor("counter.v", 13, 388); // bP
+selectCodeEditor("counter.v", 208, 253); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("counter.v", 110, 435); // bP
+typeControlKey((HResource) null, "counter.v", 'v'); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("counter.v", 255, 433); // bP
+typeControlKey((HResource) null, "counter.v", 'v'); // bP
+selectCodeEditor("counter.v", 241, 426); // bP
+typeControlKey((HResource) null, "counter.v", 'v'); // bP
+// k (cr): Text Changed: addNotify
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_CANCEL, "Cancel"); // a
+dismissDialog("Text Changed"); // k
+// Elapsed time: 21 seconds
+selectCodeEditor("counter.v", 227, 497); // bP
+typeControlKey((HResource) null, "counter.v", 'v'); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,734 MB. GUI used memory: 79 MB. Current time: 5/4/25, 9:32:54 PM JST
+// Elapsed time: 45 seconds
+selectCodeEditor("counter.v", 96, 430); // bP
+// Elapsed time: 57 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, try_synth1.xdc]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, try_synth1.xdc]", 4, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 21 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// Elapsed time: 11 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aK
+// Tcl Command: 'rdi::info_commands {a*}'
+// Tcl Command: 'rdi::info_commands {lau*}'
+// Tcl Command: 'rdi::info_commands {launch*}'
+// Tcl Command: 'rdi::info_commands {launch_*}'
+// Elapsed time: 14 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "launch_runs synth_1", true); // l
+// Tcl Command: 'launch_runs synth_1'
+// Tcl Command: 'launch_runs synth_1'

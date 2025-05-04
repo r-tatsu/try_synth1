@@ -1,0 +1,17 @@
+
+*** Running vivado
+    with args -log counter.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source counter.tcl
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source counter.tcl -notrace
+Command: synth_design -top counter -part xcvc1902-viva1596-2HP-i-S
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcvc1902'
+realloc(): invalid pointer
+Abnormal program termination (6)
+Please check '/home/u_r_tatsu/try_synth1/project_1/project_1.runs/synth_1/hs_err_pid6387.log' for details
